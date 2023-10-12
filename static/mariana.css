@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: monospace;
+    color: ghostwhite;
+    background-color: black;
+}
+
+/* Home Page CSS */
+/* ------------------------------------------------------------------------------- */
+
+h1{
+    text-align: left;
+    height: 100%;
+    vertical-align: top;
+    font-weight: normal;
+    font-size: 90px;
+    font-family: 'Courier New', Courier, monospace;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+h1 span {
+    color: rgb(55, 205, 55);
+    font-weight: 550;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+.hero-section {
+    width: 57%;
+    height: 100vh;
+    display: block;
+    color: ghostwhite;
+    position: relative;
+    left: 43%;
+    background-color: black;
+}
+
+.hero-section a img {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    position: relative;
+    padding-top: 2vh;
+}
+
+.hero-section .dynamic-txts h1{
+    position: relative;
+   display: flex;
+   overflow: hidden;
+}
+
+.hero-section a h1 {
+    font-size: 60px;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+.hero-section2 {
+    width: 43%;
+    height: 0vh;
+    display: block;
+    position: relative;
+    background-color: black;
+}
+
+.hero-section2 img {
+    height: 100vh;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+.type::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    border-left: 2px solid ghostwhite;
+    animation: typing 1.5s steps(13);
+    animation-fill-mode: forwards;
+}
+
+.type2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    border-left: 2px solid ghostwhite;
+    animation: typing 1.5s steps(10);
+    animation-delay: 1.5s;
+    animation-fill-mode: forwards;
+}
+
+.type3::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: black;
+    border-left: 2px solid ghostwhite;
+    animation: typing 1.5s steps(15);
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes typing {
+    100% {
+        left: 100%;
+        margin: 0 auto;
+    }
+}
+
+/* ------------------------------------------------------------------------------- */
+
+.navigation {
+  position: relative;
+  width: 10vh;
+  padding-left: 40vh;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: right;
+    padding: 0px 20px;
+    padding-top: 5px;
+}
+
+.navigation a li {
+    color: ghostwhite;
+    display: table-cell;
+    vertical-align: middle;
+    height: auto;
+    font-family: monospace;
+    font-size: 12px;
+}
+/* ------------------------------------------------------------------------------- */
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    transition: 0.5s ease;
+    cursor: pointer;
+    height: fit-content;
+    width: 200px;
+}
+
+.button a {
+    display: flex;
+    align-items: center;
+}
+
+.button:hover{
+    opacity: 30%;
+}
+
+
+/* Content Page CSS */
+/* ------------------------------------------------------------------------------- */
+
+#about-me {
+    padding-top: 80px;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#about-me h1{
+    margin-left: 15px;
+    font-weight: normal;
+    height: fit-content;
+}
+
+#about-me p {
+    display: flex;
+    color: ghostwhite;
+    margin-left: auto;
+    margin-right: 30vh;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+#previous-works {
+    padding-top: 80px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(13, 13, 13);
+    display: flex;
+    flex-direction: column;
+}
+
+#previous-works h1{
+    margin-left: 15px;
+    font-weight: normal;
+    height: fit-content;
+}
+
+#previous-works p {
+    display: flex;
+    color: ghostwhite;
+    margin-left: auto;
+    margin-right: 30vh;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+#depoimentos {
+    padding-top: 80px;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+#depoimentos h1{
+    margin-left: 15px;
+    font-weight: normal;
+    height: fit-content;
+}
+
+#depoimentos p {
+    display: flex;
+    color: ghostwhite;
+    margin-left: auto;
+    margin-right: 30vh;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+#contacts {
+    padding-top: 80px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(13, 13, 13);
+    display: flex;
+    flex-direction: column;
+}
+
+#contacts h1{
+    margin-left: 15px;
+    font-weight: normal;
+    height: fit-content;
+}
+
+#contacts p {
+    display: flex;
+    color: ghostwhite;
+    margin-left: auto;
+    margin-right: 30vh;
+}
+
+/* ------------------------------------------------------------------------------- */
+
